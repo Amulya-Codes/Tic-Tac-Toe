@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+}
+.homepage, .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 14px 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: #2F8DDE;
+    font-size: 14px;
+    cursor: pointer;
+}
+.select-player-container {
+    display: none;
+}
+.radio-btn {
+    display: flex;
+    gap: 50px;
+}
